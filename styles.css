@@ -35,11 +35,12 @@ h1:hover {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
 }
 
 .card {
-    width: 32%;
+    max-width: 300px;
     position: relative;
     margin-bottom: 20px;
     border-radius: 10px;
